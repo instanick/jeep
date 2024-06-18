@@ -4,82 +4,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Jeep Wrangler</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="js/script.js" defer></script>
 </head>
-
 
 <body>
     <header>
         <nav>
             <div class="logo">
-                <img src="./assets/logo_jeep.png" alt="logo jeep">
+                <img src="./assets/logo_jeep.png" alt="Logo Jeep">
             </div>
             <menu>
-                <a href="">Inicio</a>
-                <a href="">Galeria</a>
+                <a href="">Início</a>
+                <a href="#galeria">Galeria</a>
                 <a href="">Cores</a>
                 <a href="">Contato</a>
             </menu>
         </nav>
     </header>
     <main>
-        <section id="Inicio">
+        <section id="inicio">
             <div class="banner">
-
-                <img src="./assets/jeep-wrangler-bloqueador-diferencial-desk.webp" alt="carrinho">
+                <img src="./assets/jeep-wrangler-bloqueador-diferencial-desk.webp" alt="Jeep Wrangler Bloqueador Diferencial">
             </div>
-            <h1>Exclusivo <span> Motor 2.0</span> turbo</h1>
+            <h1>Exclusivo <span>Motor 2.0</span> Turbo</h1>
             <div class="lama">
-                <img src="./assets/transparente-lama.webp" alt="">
+                <img src="/assets/transparente-lama.webp" alt="">
             </div>
         </section>
-        </div>
-        <section id="Galeria">
-
+        <section id="galeria">
             <div class="galeria">
-                <h2>Galeria</h2>
+                <h2>Galeria <span></span>de Fotos</h2>
                 <div class="thumbs">
-                    <div class="thumb">
-                        <img src="./assets/jeep-wrangler-bloqueador-diferencial-desk.webp" alt="">
+                    <div class="thumb" onclick="trocaimg('jeep-wrangler-bloqueador-diferencial-desk.webp')">
+                        <img src="/assets/jeep-wrangler-bloqueador-diferencial-desk.webp" alt="">
                     </div>
-                    <div class="thumb">
-                        <img src="./assets/RUBICON-trail-rated-mobile.webp" alt="">
+                    <div class="thumb" onclick="trocaimg('RUBICON-trail-rated-mobile.webp')">
+                        <img src="/assets/RUBICON-trail-rated-mobile.webp" alt="">
                     </div>
-                    <div class="thumb">
-                        <img src="./assets/Jeep-wrangler-barra-estabilizadora-desk.webp" alt="">
+                    <div class="thumb" onclick="trocaimg('Jeep-wrangler-barra-estabilizadora-desk.webp')">
+                        <img src="/assets/Jeep-wrangler-barra-estabilizadora-desk.webp" alt="">
                     </div>
-                    <div class="thumb">
-                        <img src="./assets/jeep-rubicon-red.webp" alt="">
+                    <div class="thumb" onclick="trocaimg('jeep-rubicon-red.webp')">
+                        <img src="/assets/jeep-rubicon-red.webp" alt="">
                     </div>
-                    <div class="thumb">
-                        <img src="./assets/jeep-wrangler-rubicon-gray.webp" alt="">
+                    <div class="thumb" onclick="trocaimg('jeep-wrangler-rubicon-gray.webp')">
+                        <img src="/assets/jeep-wrangler-rubicon-gray.webp" alt="">
                     </div>
-                    <div class="thumb">
-                        <img src="./assets/jeep-wrangler-white.webp" alt="">
+                    <div class="thumb" onclick="trocaimg('jeep-wrangler-white.webp')">
+                        <img src="/assets/jeep-wrangler-white.webp" alt="">
                     </div>
                 </div>
                 <div class="large">
                     <div class="img-large">
-                        <img src="./assets/Jeep-wrangler-barra-estabilizadora-desk.webp" alt="">
+                        <img src="assets/Jeep-wrangler-barra-estabilizadora-desk.webp" alt="" id="fotogrande">
                     </div>
-                    <h3>texto descritivo</h3>
+                    <p id="desc">Texto Descritivo</p>
                 </div>
+
             </div>
         </section>
+        <section id="cores">
 
+        </section>
+        <section id="contato">
 
-        </div>
-        <section id="Cores"> </section>
-        <section id="Contato"> </section>
+        </section>
     </main>
     <footer>
         <div class="conteudo">
             <div class="logo">
                 <img src="./assets/logo_jeep.png" alt="Logo Jeep">
             </div>
-
-
             <div class="marcas">
                 <a href="">RAM</a>
                 <a href="">Dodge</a>
@@ -87,14 +84,14 @@
                 <a href="">Fiat</a>
             </div>
             <div class="social">
-
-                <a href=""> <i class="fa-brands fa-x-twitter"></i></a>
-                <a href=""> <i class="fa-brands fa-instagram"></i> </a>
-                <a href=""> <i class="fa-brands fa-youtube"></i> </a>
-                <a href=""> <i class="fa-brands fa-facebook"></i> </a>
+                <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
             </div>
         </div>
-        <p>&copy; 2024. Landing Page Jeep Wrangler Vai Corinthians Nicolas de Oliveira</p>
+        <p>&copy; 2024. Landing Page Jeep Wrangler. Projeto Educacional.</p>
+        <p>Desenvolvido por Nicolas de Oliveira</p>
     </footer>
 </body>
 

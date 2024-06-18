@@ -1,8 +1,12 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 header {
@@ -25,7 +29,7 @@ menu {
 }
 
 menu a:link,
-menu a:visited {
+a:visited {
     height: 80px;
     display: flex;
     align-items: center;
@@ -55,19 +59,18 @@ section {
     width: 100%;
 }
 
-#Inicio h1 {
+#inicio h1 {
     width: 400px;
     position: absolute;
-    top: 50%;
-    margin-top: -50px;
+    top: 40%;
     left: 100px;
     color: #fafafa;
-    font-size: 64px;
     text-transform: uppercase;
-    line-height: 47px;
+    font-size: 64px;
+    line-height: 45px;
 }
 
-#Inicio h1 span {
+#inicio h1 span {
     color: #e7a10d;
     font-size: 70px;
     margin-left: 20px;
@@ -79,11 +82,15 @@ section {
     width: 100%;
     height: 170px;
     display: flex;
-    align-items: flex-end;
+    align-items: flex-end
 }
 
 #inicio .lama img {
     width: 100%;
+}
+
+#galeria {
+    background-color: #222222;
 }
 
 .galeria {
@@ -92,17 +99,27 @@ section {
     flex-wrap: wrap;
     margin: 0 auto;
     gap: 20px;
+    display: flex;
 }
 
 .galeria h2 {
     width: 100%;
-    font-size: 48px;
+    font-size: 42px;
     text-transform: uppercase;
+    color: #fafafa;
+}
+
+.galeria h2 span {
+    color: #e7a10d;
+    position: relative;
+    top: 16px;
+    left: -19px;
 }
 
 .thumbs {
     width: 630px;
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     gap: 15px;
 }
@@ -118,7 +135,6 @@ section {
 
 .large {
     width: 630px;
-    border: 2px purple;
 }
 
 .img-large {
@@ -127,8 +143,4 @@ section {
 
 .img-large img {
     width: 100%;
-}
-
-#Galeria {
-    background-color: #404040;
 }
